@@ -1,0 +1,1 @@
+# scala-kup-assignment
