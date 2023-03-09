@@ -23,11 +23,11 @@ object ProfilePicture extends  App {
   def uploadProfilePicture(lengthOfFrame: Int, width: Int, height: Int) : String = {
 
     if(width < lengthOfFrame || height < lengthOfFrame){
-       "Upload another picture !!"
+       "Upload another one"
     } else if (height == width) {
-       "Upload successful !!"
+       "Accepted "
     } else {
-       "Crop the picture !!"
+       "CROP IT"
     }
   }
 }
